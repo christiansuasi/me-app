@@ -15,11 +15,6 @@
 		89F958921E5A25F0001EEC50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89F958901E5A25F0001EEC50 /* LaunchScreen.storyboard */; };
 		89F9589D1E5A25F1001EEC50 /* meTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F9589C1E5A25F1001EEC50 /* meTests.swift */; };
 		89F958A81E5A25F1001EEC50 /* meUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F958A71E5A25F1001EEC50 /* meUITests.swift */; };
-		89F958B71E5A34B2001EEC50 /* instagram_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 89F958B61E5A34B2001EEC50 /* instagram_icon.png */; };
-		89F958B91E5A353E001EEC50 /* facebook_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 89F958B81E5A353E001EEC50 /* facebook_icon.png */; };
-		89F958BB1E5A3622001EEC50 /* snapchat_icon.eps in Resources */ = {isa = PBXBuildFile; fileRef = 89F958BA1E5A3622001EEC50 /* snapchat_icon.eps */; };
-		89F958BD1E5A365E001EEC50 /* snap-ghost-yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 89F958BC1E5A365E001EEC50 /* snap-ghost-yellow.png */; };
-		89F958BF1E5A36AC001EEC50 /* Twitter_Logo_White_On_Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 89F958BE1E5A36AC001EEC50 /* Twitter_Logo_White_On_Blue.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +49,6 @@
 		89F958A31E5A25F1001EEC50 /* meUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F958A71E5A25F1001EEC50 /* meUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meUITests.swift; sourceTree = "<group>"; };
 		89F958A91E5A25F1001EEC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89F958B61E5A34B2001EEC50 /* instagram_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = instagram_icon.png; path = ../../../../../Desktop/instagram_icon.png; sourceTree = "<group>"; };
-		89F958B81E5A353E001EEC50 /* facebook_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebook_icon.png; path = ../../../../../Desktop/facebook_icon.png; sourceTree = "<group>"; };
-		89F958BA1E5A3622001EEC50 /* snapchat_icon.eps */ = {isa = PBXFileReference; lastKnownFileType = file; name = snapchat_icon.eps; path = ../../../../../Desktop/snapchat_icon.eps; sourceTree = "<group>"; };
-		89F958BC1E5A365E001EEC50 /* snap-ghost-yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snap-ghost-yellow.png"; path = "../../../../../Downloads/snapchat-logo/snap-ghost-yellow.png"; sourceTree = "<group>"; };
-		89F958BE1E5A36AC001EEC50 /* Twitter_Logo_White_On_Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Twitter_Logo_White_On_Blue.png; path = ../../../../../Desktop/Twitter_Logo_White_On_Blue.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +99,6 @@
 		89F958841E5A25F0001EEC50 /* me */ = {
 			isa = PBXGroup;
 			children = (
-				89F958B51E5A31B2001EEC50 /* images */,
 				89F958851E5A25F0001EEC50 /* AppDelegate.swift */,
 				89F958871E5A25F0001EEC50 /* FirstViewController.swift */,
 				89F958891E5A25F0001EEC50 /* SecondViewController.swift */,
@@ -137,18 +126,6 @@
 				89F958A91E5A25F1001EEC50 /* Info.plist */,
 			);
 			path = meUITests;
-			sourceTree = "<group>";
-		};
-		89F958B51E5A31B2001EEC50 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				89F958BE1E5A36AC001EEC50 /* Twitter_Logo_White_On_Blue.png */,
-				89F958BC1E5A365E001EEC50 /* snap-ghost-yellow.png */,
-				89F958BA1E5A3622001EEC50 /* snapchat_icon.eps */,
-				89F958B81E5A353E001EEC50 /* facebook_icon.png */,
-				89F958B61E5A34B2001EEC50 /* instagram_icon.png */,
-			);
-			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,13 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89F958921E5A25F0001EEC50 /* LaunchScreen.storyboard in Resources */,
-				89F958B91E5A353E001EEC50 /* facebook_icon.png in Resources */,
-				89F958BD1E5A365E001EEC50 /* snap-ghost-yellow.png in Resources */,
 				89F9588F1E5A25F0001EEC50 /* Assets.xcassets in Resources */,
-				89F958BB1E5A3622001EEC50 /* snapchat_icon.eps in Resources */,
 				89F9588D1E5A25F0001EEC50 /* Main.storyboard in Resources */,
-				89F958B71E5A34B2001EEC50 /* instagram_icon.png in Resources */,
-				89F958BF1E5A36AC001EEC50 /* Twitter_Logo_White_On_Blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
