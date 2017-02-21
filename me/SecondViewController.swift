@@ -77,6 +77,36 @@ class SecondViewController: UIViewController, UINavigationControllerDelegate, UI
     
     
     
+    
+    @IBAction func openCamera(_ sender: Any) {
+        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            imagePicker.allowsEditing = false
+            imagePicker.sourceType = UIImagePickerControllerSourceType.camera
+            imagePicker.cameraCaptureMode = .photo
+            imagePicker.modalPresentationStyle = .fullScreen
+            present(imagePicker,animated: true,completion: nil)
+        } else {
+            noCamera()
+        }
+    }
+    func noCamera(){
+        let alertVC = UIAlertController(
+            title: "No Camera",
+            message: "Sorry, this device has no camera",
+            preferredStyle: .alert)
+        let okAction = UIAlertAction(
+            title: "OK",
+            style:.default,
+            handler: nil)
+        alertVC.addAction(okAction)
+        present(
+            alertVC,
+            animated: true,
+            completion: nil)
+    }
+    
+    
+    
    
     //MARK: Actions
     
