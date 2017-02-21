@@ -21,8 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYg-T9-hvd">
-                                <rect key="frame" x="166" y="206" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="@seesuasi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYg-T9-hvd">
+                                <rect key="frame" x="146" y="205" width="82" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -166,11 +166,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="facebook_icon" width="144" height="144"/>
+        <image name="facebook_icon" width="398" height="398"/>
         <image name="first" width="30" height="30"/>
         <image name="instagram_icon" width="398" height="398"/>
         <image name="second" width="30" height="30"/>
-        <image name="snapchat_icon" width="433" height="432"/>
-        <image name="twitter_icon" width="400" height="400"/>
+        <image name="snapchat_icon" width="398" height="398"/>
+        <image name="twitter_icon" width="398" height="398"/>
     </resources>
 </document>

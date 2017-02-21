@@ -2,4 +2,82 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "me/AppDelegate.swift"
+            timestampString = "509335172.133695"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "me.AppDelegate.__deallocating_deinit"
+                  moduleName = "me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiansuasi/Google%20Drive/me/projects/me/me/AppDelegate.swift"
+                  timestampString = "509335759.279723"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "me.AppDelegate.init () -&gt; me.AppDelegate"
+                  moduleName = "me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiansuasi/Google%20Drive/me/projects/me/me/AppDelegate.swift"
+                  timestampString = "509335759.285195"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "me.AppDelegate.__allocating_init () -&gt; me.AppDelegate"
+                  moduleName = "me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiansuasi/Google%20Drive/me/projects/me/me/AppDelegate.swift"
+                  timestampString = "509335759.290029"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "me"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiansuasi/Google%20Drive/me/projects/me/me/AppDelegate.swift"
+                  timestampString = "509335759.295091"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
